@@ -3,24 +3,6 @@ from math import log
 from math import ceil
 
 
-# 𝐷𝑚 = mth differentiated payment;
-
-# P = the loan principal;
-
-# i = nominal interest rate.
-# --> This is usually 1/12 of the annual interest rate and is a float value,
-# --> not a percentage. For example, if our annual interest rate = 12%, then i = 0.01.
-
-# n = number of payments. This is usually the number of months in which repayments will be made.
-
-# m = current repayment month.
-
-# In this stage, the user has to provide more inputs,
-# Your program should be able to parse new command-line arguments.
-# Let's add the --type one, so now the calculator should be run with 4 arguments:
-
-
-# Interest Calculator
 def get_interest(interest: float) -> float:
     return float(interest / (12 * 100))
 
